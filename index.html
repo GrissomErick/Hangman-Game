@@ -1,0 +1,61 @@
+
+<!--  Erick Grissom UNC COding Bootcamp Week 3 Homework Hangman Game  -->
+
+<!DOCTYPE html>
+
+<head>
+  
+    <title>ESPN NBA Hangman</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid" id="container">
+
+    <div class="row" id="mainContent">
+
+        <div class="col-lg-2" id="mainSpacer"></div>
+
+        <div class="col-lg-8" id="mainBox">
+            <div id="innerBox">
+              <br><br>
+              <h3><small id="sub2">NBA Player (Last Name):</small><br><p id="right"></p></h3>
+              <p><span id="remain">11</span> <span id="remainstatic">incorrect guesses remain</span></span></p>
+              <h4>Incorrect Letters:<span id="wrong"></span></h4>
+              <div id="buttons">
+                <input type="button" value="PAUSE" id="musicButton" class="button"></input>
+                <input type="button" value="RESET" id="resetButton" class="button"></input>
+              </div>
+              <script src="assets/script.js"></script>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="row" id="backLinkRow">
+        <div class="col-lg-12" id="backLinkBox">
+            <a href="https://clutchpoints.com/espn-releases-top-10-nba-players-lebron-james/" id="backLink"><span id="backLinkText">ESPN Top Ten List</span></a>
+        </div>
+    </div>
+  
+  </div>
+
+  <div id="footerBox">
+      
+    <div id="footer">
+      <p>© Copyright Erick Grissom 2017</p>
+    </div>
+
+  </div>
+
+  <!-- Remote jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>
